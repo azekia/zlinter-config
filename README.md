@@ -1,14 +1,19 @@
 # zlinter-config
+
 our **shared [ES]linter config** for js/mjs/ts...
 
-proximamente: soporte para typescript y unificado con prettier
+proximamente: soporte para typescript y unificado con prettier??????
 
 ---
+
 ### `Extensiones necesarias`
+
 - ESLint `dbaeumer.vscode-eslint`
 
 ### Módulos necesarios
+
 Importante instalar los paquetes de `ESLint` y `zlinter-config`
+
 ```
 npm install --save-dev eslint
 npm install --save-dev github:azekia/zlinter-config
@@ -17,6 +22,7 @@ npm update zlinter-config
 ```
 
 ### `package.json`
+
 En `package.json` quedarán configurdas configurar las siguientes dependencias de desarrollo
 
 ```json
@@ -30,6 +36,7 @@ En `package.json` quedarán configurdas configurar las siguientes dependencias d
 ```
 
 ### `.vscode/settings.json`
+
 En las preferencias del Workspace vamos a configurar los formateadores por defecto para cada tipo de archivo.
 Por ejemplo, para el código javascript **no usaremos** Pettier, sino ESLint.
 
@@ -55,20 +62,16 @@ Por ejemplo, para el código javascript **no usaremos** Pettier, sino ESLint.
 ```
 
 ### `eslint.config.js`
+
 El fichero `eslint.config.js` vamos a configurar las opciones de ESLint.
 
 ```javascript
 // module.exports = require('zlinter-config');
 // eslint-disable-next-line import/no-extraneous-dependencies, import/newline-after-import
-import zl from 'zlinter-config';
+import zl from "zlinter-config";
 export default zl;
-
 ```
 
 ### `npm install & reboot VSCode`
+
 Para que funcione correctamente el prettier/linter, depues de realizar estas configuraciones es necesario que hagas un `npm install` y reiniciar VSCode.
-
-
-
-
-
