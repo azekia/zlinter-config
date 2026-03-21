@@ -1,6 +1,8 @@
 # zlinter-config
 our **shared [ES]linter config** for js/mjs/ts...
 
+proximamente: soporte para typescript y unificado con prettier
+
 ---
 ### `Extensiones necesarias`
 - ESLint `dbaeumer.vscode-eslint`
