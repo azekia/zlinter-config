@@ -23,7 +23,7 @@ npm update zlinter-config
 
 ### `package.json`
 
-En `package.json` quedarán configurdas configurar las siguientes dependencias de desarrollo
+En `package.json` quedarán configurar las siguientes dependencias de desarrollo
 
 ```json
   "devDependencies": {
