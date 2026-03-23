@@ -1,8 +1,8 @@
 # zlinter-config
 
-our **shared [ES]linter config** for js/mjs/ts...
+our (pre-2026) **shared [ES]linter config** for js/mjs/ts...
 
-proximamente: soporte para typescript y unificado con prettier??????
+Este repositorio es el usado en proyectos pre-2026, para los nuevos proyectos debe usarse `zlinter` (https://github.com/azekia/zlinter) que soporta `.ts` en Node.js y es más actual.
 
 ---
 
